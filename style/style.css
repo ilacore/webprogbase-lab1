@@ -1,0 +1,179 @@
+body {
+    margin: 0px;
+    background-image: url("../images/back.jpg");
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.menu {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    color: #ddd;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10%;
+}
+.menu > img {
+    border-radius: 10%;
+}
+
+.menu > p {
+    margin-left: 15px;
+}
+
+
+
+
+
+
+ .menu > p > a {
+
+    border-left: 2px solid #ccc;
+
+    padding-left: 5px;
+
+    color: rgb(133, 172, 72);
+
+}
+
+
+
+.menu > p > a:visited {
+    color: rgb(76, 168, 55);
+}
+
+
+
+.menu > p > a.current {
+    border-left: none;
+    padding-left: 0px;
+}
+
+
+
+.menu > p > a.active {
+    font-weight:bolder;
+    color: #ddd;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.contents {
+    background-color: aliceblue;  
+    margin-left:30%;
+    padding: 40px;
+}
+
+
+
+
+
+.user-page {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.userpic {
+    max-width: 50%;
+    height: 150px;
+}
+
+
+
+.user-data {
+    margin-left: 25px;
+    width: 100%;
+}
+
+
+
+.user-bio {
+    border: 3px solid rgb(71, 97, 11);
+    border-radius: 20%;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+
+
+time {
+
+    font-style: italic;
+    font-family: fantasy;
+
+}
+
+
+
+
+
+
+table {
+
+    border: 2px solid gray;
+
+    border-collapse: collapse;
+
+}
+
+
+
+th, td {
+
+    padding: 10px;
+
+    border: 1px solid gray;
+
+}
+
+
+
+ul {
+
+    list-style: none;
+
+    border: 2px solid gray;
+
+    max-width: 300px;
+
+    padding: 5px;
+
+}
+
+
+
+li {
+
+    border-top: 1px solid gray;
+
+    padding-top: 2px;
+
+    padding-bottom: 2px;
+
+    padding-left: 10px;
+
+}
+
+
+
+li:first-child {
+
+    border-top: none;
+
+}
