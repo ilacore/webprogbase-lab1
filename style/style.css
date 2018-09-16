@@ -23,6 +23,8 @@ body {
 
 .menu > p {
     margin-left: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 
