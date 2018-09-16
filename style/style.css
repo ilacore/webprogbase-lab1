@@ -79,30 +79,12 @@ a {
 
 
 
-.user-page {
-    display: flex;
-    flex-direction: row;
-}
 
 
 
-.userpic {
-    max-width: 50%;
-    height: 150px;
-}
-
-
-
-.user-data {
-    margin-left: 25px;
-    width: 100%;
-}
-
-
-
-.user-bio {
+.user_info {
     border: 3px solid rgb(71, 97, 11);
-    border-radius: 20%;
+    border-radius: 50%;
     padding-left: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -135,45 +117,28 @@ table {
 
 
 th, td {
-
     padding: 10px;
-
     border: 1px solid gray;
-
 }
 
 
 
 ul {
-
-    list-style: none;
-
-    border: 2px solid gray;
-
+    list-style-type: lower-greek;
     max-width: 300px;
-
     padding: 5px;
-
 }
 
 
 
 li {
-
-    border-top: 1px solid gray;
-
+    border-bottom: 1px solid gray;
     padding-top: 2px;
-
     padding-bottom: 2px;
-
     padding-left: 10px;
-
 }
 
-
-
-li:first-child {
-
-    border-top: none;
-
+li:first-child{
+    border-top: 1px solid gray;
 }
+
